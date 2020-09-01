@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Misako Kobayashi</title>
+
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Fontawsome -->
+	<script src="https://kit.fontawesome.com/41399d9032.js" crossorigin="anonymous"></script>
+
+	<!--lightbox CSS by Lokesh Dahkar-->
+	<link href="css/lightbox.min.css" type="text/css" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/misako.js"></script>
+</head>
+
+<body>
+<header>
+	<nav class="navbar navbar-expand-md justify-content-between">
+		<ul class="navbar-nav">
+			<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+			<li class="nav-item"><a class="nav-link" href="about.html">Resume</a></li>
+			<li class="nav-item"><a class="nav-link" href="work.html">Work</a></li>
+			<li class="nav-item"><a class="nav-link" href="album.html">Album</a></li>
+		</ul>
+
+		<div class="serch-container">
+	    	<form action="/action_page.php">
+	      	<input type="text" placeholder="Search.." name="search">
+	      	<button type="submit" onclick=""><i class="fa fa-search"></i></button>
+	    	</form>
+    	</div>
+	</nav>
+	<hr>
+</header>
+
+<main class="home">
+	<div class="hero">
+		<section>
+			<h1>Misako Kobayashi</h1>
+			<h2>portofolio</h2>
+			<button class="btn btn-secondary" data-toggle="modal" data-target="#modalContactForm">Contact Me</button>
+
+			<!--modal form-->
+				<div class="modal fade" id="modalContactForm" role="dialog">
+					<div class="modal-dialog">
+				    <div class="modal-content">
+				      
+					    <div class="modal-header">
+					      	<h4 class="modal-title">Contact Form</h4>
+					        <button type="button" aria-label="Close" class="close" data-dismiss="modal">&times;</button>
+					    </div>
+				      
+					    <div class="modal-body">
+					    <form class="needs-validation" novalidate>
+					        <div class="md-form">
+					          	<label for="name">Name</label>
+					          	<input type="text" id="name" class="form-control" required>
+					          	<div class="valid-feedback">Valid.</div>
+					          	<div class="invalid-feedback">Please enter your name</div>
+					        </div>
+
+					        <div class="md-form">
+					           	<label for="email">Email</label>
+					         	<input type="email" id="email" class="form-control" required>
+					         	<div class="valid-feedback">Valid.</div>
+					          	<div class="invalid-feedback">Please enter a valid email address</div>
+					        </div>
+
+					        <div class="md-form">
+					        	<label for="message">Message</label>
+					 			<textarea id="message" class="form-control" rows="5" required></textarea>
+					          	<div class="valid-feedback">Valid.</div>
+					          	<div class="invalid-feedback">Please enter a message</div>	 			
+					        </div>
+				     	
+				      		<div class="modal-footer d-flex">
+				        		<button class="btn btn-secondary">Send</button>
+				      		</div>
+				  		</form>
+				    	</div>
+				  	</div>
+					</div>
+				</div>
+			<!--modal form ends-->
+
+		</section>
+	</div>
+
+  	<div class="container main">
+    <div class="row">
+
+      <div class="col-md-4 column">
+        <img class="rounded-circle" src="images/misako.JPG" alt="image of myself">
+        <h2>About Me</h2>
+        <p>I'm a prospective web developer living in the San Francisco Bay area</p>
+        <p><a class="btn btn-secondary" href="about.html">About Me</a></p>
+      </div>
+
+      <div class="col-md-4 column">
+        <img class="rounded-circle" src="images/work.JPG" alt="project image">
+        <h2>My Work</h2>
+        <p>Please take a look at a collection of the projects that I worked on</p>
+        <p><a class="btn btn-secondary" href="work.html">My Work</a></p>
+      </div>
+
+      <div class="col-md-4 column">
+        <img class="rounded-circle" src="images/album.JPG" alt="album image">
+        <h2>My Album</h2>
+        <p>My favorite photos. Mainly from roadtrips in U.S. and Canada</p>
+        <p><a class="btn btn-secondary" href="album.html">Album</a></p>
+      </div>
+
+    </div>
+   	</div>	
+</main>	
+
+<a id="toTopButton" href="#top"><i class="fas fa-angle-double-up fa-2x"></i></a>
+
+<footer>
+	<a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a>
+	<a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-2x"></i></a>
+	<a href="https://twitter.com"><i class="fab fa-twitter-square fa-2x"></i></a> 
+	<br>
+	<p>&copy; Copyright 2020 Misako Kobayashi. All Rights Reserved.</p>
+</footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+	<!--lightbox JS by Lokesh Dahkar-->
+    <script src="js/lightbox-plus-jquery.js"></script>      
+
+
+</body>
+</html>
