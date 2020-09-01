@@ -25,6 +25,10 @@ hr {
 	opacity: 0.6;
 }
 
+#search {
+	width: 300px;
+}
+
 /*----index page: top part------------------*/
 .hero {
 	background-image: url('../images/main.JPG');
