@@ -174,10 +174,10 @@ hr {
 }
 
 
-.project img, iframe {
+.project img {
 	width: 35vw;
-	min-width: 450px;
-	min-height: 320px;
+	min-width: 350px;
+	height: 100%
 	border: solid grey;
 	display: block;
 	margin-left: auto;
