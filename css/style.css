@@ -45,7 +45,7 @@ hr {
 
 .hero h1 {
 	color: #ffffff;
-	font-size: 4rem;
+	font-size: 3.5rem;
 	padding-top: 22vh;
 }
 
@@ -61,14 +61,15 @@ hr {
 	font-weight: bolder;
 }
 
+.md-form label {
+	float: left;
+	margin-bottom: 0;
+	padding-top: 10px;
+}
+
 .modal-footer button {
 	margin-right: auto;
 	margin-left: auto;
-}
-
-.md-form label {
-	padding-top: 10px;
-	text-align: left;
 }
 
 
