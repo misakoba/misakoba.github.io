@@ -19,6 +19,9 @@
 	<!--Google Search Engine-->
 	<script async src="https://cse.google.com/cse.js?cx=895d2101bb160f3ab"></script>
 
+	<!--Recapcha API-->
+	<script src="https://www.google.com/recaptcha/api.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="js/misako.js"></script>
 
@@ -82,7 +85,7 @@
 					        </div>
 				     	
 				      		<div class="modal-footer d-flex">
-				        		<button class="btn btn-secondary">Send</button>
+				        		<button class="btn btn-secondary g-recaptcha" type="submit" data-sitekey="6LdOncsZAAAAAD8VObsbWIb8tyLyU2C56ZmRAX9O" data-callback='onSubmit' data-action='submit'>Send</button>
 				      		</div>
 				  		</form>
 				    	</div>

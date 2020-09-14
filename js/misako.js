@@ -30,3 +30,7 @@ function buttonAppears() {
     document.getElementById("toTopButton").style.display="none";
   }
 }
+
+function onSubmit(token) {
+  document.getElementById("modalContactForm").submit();
+}
